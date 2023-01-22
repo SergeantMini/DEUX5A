@@ -1,0 +1,213 @@
+html {
+  font-family: "Montserrat";
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+}
+a:hover {
+  color: black;
+}
+
+h1, h3, h6 {
+  color: #027DB0;
+}
+
+h2 {
+  color: #47b2a3;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 50px 0px 20px 150px;
+  font-weight: 900;
+}
+
+p {
+  color: #272727;
+  font-size: 14px;
+  margin: 0px 150px;
+}
+
+.tSlow, nav ul li a::after, nav ul li a::before, nav ul li a, nav ul, nav, a {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.pad_100 {
+  padding: 100px 0px;
+}
+
+.center {
+  text-align: center;
+  margin: 0px auto;
+}
+
+nav {
+  color: white;
+  width: 100%;
+  background-color: #666699;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid transparent;
+  z-index: 100;
+}
+nav .logo img {
+  max-width: 120px;
+  margin: 10px 10px;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+nav ul .link-active a {
+  color: #272727 !important;
+}
+nav ul .link-active a::after {
+  width: 100%;
+  background-color: #272727;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+nav ul li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav ul li a::before {
+  content: "";
+  position: absolute;
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 0%;
+  background-color: white;
+  height: 1px;
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+nav ul li a:hover::before {
+  width: 0%;
+  background-color: #272727;
+}
+nav ul li a:hover::after {
+  width: 100%;
+  background-color: #272727;
+}
+
+.primerHeader {
+  font-size: 55px;
+  margin: 100px 120px;
+}
+
+.textoAreaGris {
+  width: 100%;
+  background-color: #d8d8d8;
+}
+.textoAreaGris p {
+  margin: 0px 150px;
+  max-width: 530px;
+}
+.textoAreaGris ul {
+  font-size: 14px;
+}
+
+#Equipo .container-fluid {
+  max: width 60%;
+}
+
+footer {
+  margin: 20px 0px 0px 0px;
+  background-color: #272727;
+}
+footer h6 {
+  font-size: 12px;
+}
+footer .container-fluid {
+  width: 100%;
+  padding: 20px 20px;
+}
+footer .container-fluid .row .col-lg-3 .iconosSocialMedia ul li {
+  display: inline-block;
+}
+footer img {
+  max-width: 150px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 0px 0px;
+}
+footer ul li a:hover {
+  color: #027DB0;
+}
+footer p {
+  color: white;
+  margin: 0px 0px;
+  font-size: 10px;
+}
+footer .iconoSMfooter {
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  border-color: transparent;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+footer .iconoSMfooter img {
+  max-width: 30px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 100%
+}

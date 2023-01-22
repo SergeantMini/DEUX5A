@@ -1,0 +1,199 @@
+//DEUX Diseño de Experiencia
+
+//VARIABLES DE COLORES
+$azulbase: #027DB0
+$text: #272727
+
+html
+    font-family: 'Montserrat'
+
+a
+    margin: 0px
+    padding: 0px
+    @extend .tSlow
+    &:hover
+        color: black
+
+h1,h3,h6
+    color: $azulbase
+
+h2
+    color: #47b2a3
+    font-size: 30px
+
+h3
+    font-size: 20px
+    margin: 50px 0px 20px 150px
+    font-weight: 900
+
+p
+    color: $text
+    font-size: 14px
+    margin: 0px 150px
+
+.tSlow
+    -o-transition: all 0.5s ease-in-out
+    -moz-transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out
+
+.pad_100
+    padding: 100px 0px
+
+.center
+    text-align: center
+    margin: 0px auto
+
+//ESTILOS BARRA DE NAVEGACIÓN
+nav
+    color: white
+    width: 100%
+    background-color: desaturate(blue, 80)
+    //background-image: url ("./images/topmenu/Rectangle.png")
+    padding: 10px 0px
+    position: fixed
+    top: 0
+    border-bottom: 1px solid transparent
+    z-index: 100
+    @extend .tSlow
+    
+    .logo
+        img
+            max-width: 120px
+            margin: 10px 10px
+
+    ul
+        margin: 0px
+        padding: 0px
+        text-align: right
+        @extend .tSlow
+
+        .link-active
+            a
+                color: $text !important
+                &::after
+                    width: 100%
+                    background-color: $text
+        
+        li
+            display: inline-block
+            padding: 0px 10px
+            a
+                position: relative
+                color: white
+                text-decoration: none
+                font-size: 16px
+                @extend .tSlow
+                
+                &::before
+                    content: ''
+                    position: absolute
+                    @extend .tSlow
+                
+                &::after
+                    content: ''
+                    position: absolute
+                    top: 100%
+                    left: 0px
+                    width: 0%
+                    background-color: white
+                    height: 1px
+                    @extend .tSlow
+                &:hover
+                    text-decoration: none 
+                    &::before
+                        width: 0%
+                        background-color: $text
+                    &::after
+                        width: 100%
+                        background-color: $text
+
+.primerHeader
+    font-size: 55px
+    margin: 100px 120px
+
+.textoAreaGris
+    width: 100%
+    background-color: desaturate(#D8D8D8, 29.77)
+    p
+        margin: 0px 150px
+        max-width: 530px
+    ul
+        font-size: 14px
+
+#Equipo
+    .container-fluid
+        max: width 60%
+
+footer
+    h6
+        font-size: 12px
+    margin: 20px 0px 0px 0px
+    background-color: #272727
+    .container-fluid
+        width: 100%
+        padding: 20px 20px
+        .row
+            .col-lg-3
+                .iconosSocialMedia
+                    ul
+                        li
+                            display: inline-block
+    img
+        max-width: 150px
+    ul
+        list-style-type: none
+        li
+            a
+                color: white
+                text-decoration: none
+                font-size: 10px
+                margin: 0px 0px
+                &:hover
+                    color: $azulbase
+    p
+        color: white
+        margin: 0px 0px
+        font-size: 10px
+
+    .iconoSMfooter
+        background-color: #D8D8D8
+        border-radius: 50%
+        border-color: transparent
+        width:40px
+        height:40px
+        cursor: pointer
+        margin-right:5px
+        margin-left:5px
+        
+        img
+            max-width: 30px
+            align-content: center
+
+.prev, .next
+    cursor: pointer
+    position: absolute
+    top: 50%
+    width: auto
+    margin-top: -22px
+    padding: 16px
+    color: black
+    font-weight: bold
+    font-size: 18px
+    transition: 0.6s ease
+    border-radius: 0 3px 3px 0
+    user-select: none
+      
+next 
+  right: 0
+  border-radius: 3px 0 0 3px
+
+/* Slideshow container */
+.slideshow-container 
+  width: 100%
+  position: relative
+  margin: auto
+
+/* Hide the images by default */
+.mySlides 
+  display: none
+  width: 100%
