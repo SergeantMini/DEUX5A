@@ -26,6 +26,14 @@ h3
     margin: 50px 0px 20px 150px
     font-weight: 900
 
+h4
+    font-weight: 700
+
+h6
+    font-size: 22px
+    margin: 0px 0px 20px 120px
+    font-weight: 800
+
 p
     color: $text
     font-size: 14px
@@ -42,6 +50,14 @@ p
 .center
     text-align: center
     margin: 0px auto
+
+.diamontProcessSection
+    p
+        font-weight: 400
+        font-size: 18px
+    .container-fluid
+        max-width:1100px
+        font-weight: 700
 
 //ESTILOS BARRA DE NAVEGACIÓN
 nav
@@ -108,17 +124,27 @@ nav
                         background-color: $text
 
 .primerHeader
-    font-size: 55px
-    margin: 100px 120px
+    font-size: 3.5em
+    padding: 200px 0px 100px 120px
+
+.headerInicio
+    font-size: 3.5em
+    padding: 120px 0px 0px 120px
+    color: $text
 
 .textoAreaGris
     width: 100%
     background-color: desaturate(#D8D8D8, 29.77)
+    padding: 40px 0px
     p
-        margin: 0px 150px
+        padding: 0px 100px 0px 0px
         max-width: 530px
+        min-width: 300px
     ul
         font-size: 14px
+        max-width: 400px
+        li
+            padding: 0px 140px
 
 #Equipo
     .container-fluid
@@ -134,14 +160,17 @@ footer
         padding: 20px 20px
         .row
             .col-lg-3
+                padding: 1% 1%
                 .iconosSocialMedia
                     ul
                         li
                             display: inline-block
     img
         max-width: 150px
+        margin: 10px 10px
     ul
         list-style-type: none
+        margin: 0px 0px
         li
             a
                 color: white
@@ -195,5 +224,29 @@ footer
 
 /* Hide the images by default */
 .mySlides 
-  display: none
-  width: 100%
+    display: none
+    width: 100%
+    .container-fluid
+        .row
+            padding-right: 5%
+            padding-left: 5%
+            .col-lg-8
+                padding: 0px 0px
+                p
+                    margin: 0px 0px
+            .col-lg-4
+                img
+                    max-width: 400px
+
+.infoFijadaAbajo
+    position: absolute
+    bottom: 0px
+    max-width: 600px
+
+#contenedorClientesInicio
+    padding: 20px 100px
+    img
+        max-width: 100%
+    p
+        margin: 0px 0px
+        font-family: 'Source Serif Pro', serif
