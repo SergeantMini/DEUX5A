@@ -21,7 +21,6 @@ h2 {
 
 h3 {
   font-size: 20px;
-  margin: 50px 0px 20px 150px;
   font-weight: 900;
 }
 
@@ -38,7 +37,6 @@ h6 {
 p {
   color: #272727;
   font-size: 14px;
-  margin: 0px 150px;
 }
 
 .tSlow, nav ul li a::after, nav ul li a::before, nav ul li a, nav ul, nav, a {
@@ -55,12 +53,17 @@ p {
   margin: 0px auto;
 }
 
+.diamontProcessSection h3 {
+  padding: 0% 10%;
+}
 .diamontProcessSection p {
   font-weight: 400;
   font-size: 18px;
+  padding: 0% 10%;
 }
 .diamontProcessSection .container-fluid {
-  max-width: 1100px;
+  width: 80%;
+  padding: 0% 0% 0% 0%;
   font-weight: 700;
 }
 
@@ -127,7 +130,7 @@ nav ul li a:hover::after {
 
 .primerHeader {
   font-size: 3.5em;
-  padding: 200px 0px 100px 120px;
+  padding: 200px 0px 100px 10%;
 }
 
 .headerInicio {
@@ -139,23 +142,35 @@ nav ul li a:hover::after {
 .textoAreaGris {
   width: 100%;
   background-color: #d8d8d8;
-  padding: 40px 0px;
+}
+.textoAreaGris .container-fluid {
+  width: 80%;
+  padding: 5% 0%;
 }
 .textoAreaGris p {
-  padding: 0px 100px 0px 0px;
-  max-width: 530px;
-  min-width: 300px;
+  max-width: 500px;
 }
 .textoAreaGris ul {
   font-size: 14px;
-  max-width: 400px;
 }
-.textoAreaGris ul li {
-  padding: 0px 140px;
+#Equipo h3 {
+  padding: 0 10%;
+}
+#Equipo .container-fluid {
+  max: width 70%;
+}
+#Equipo .container-fluid .infoEquipo {
+  padding: 2% 2%;
+}
+#Equipo .container-fluid .infoEquipo p {
+  max-width: 800px;
+}
+#Equipo img {
+  max-width: 100%;
 }
 
-#Equipo .container-fluid {
-  max: width 60%;
+.nuestrosAliados h3 {
+  padding: 0px 10%;
 }
 
 footer {
@@ -261,12 +276,6 @@ footer .iconoSMfooter img {
 }
 .mySlides .container-fluid .row .col-lg-4 img {
   max-width: 400px;
-}
-
-.infoFijadaAbajo {
-  position: absolute;
-  bottom: 0px;
-  max-width: 600px;
 }
 
 #contenedorClientesInicio {
