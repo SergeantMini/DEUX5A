@@ -23,7 +23,6 @@ h2
 
 h3
     font-size: 20px
-    margin: 50px 0px 20px 150px
     font-weight: 900
 
 h4
@@ -37,7 +36,6 @@ h6
 p
     color: $text
     font-size: 14px
-    margin: 0px 150px
 
 .tSlow
     -o-transition: all 0.5s ease-in-out
@@ -52,11 +50,15 @@ p
     margin: 0px auto
 
 .diamontProcessSection
+    h3
+        padding: 0% 10%
     p
         font-weight: 400
         font-size: 18px
+        padding: 0% 10%
     .container-fluid
-        max-width:1100px
+        width: 80%
+        padding: 0% 0% 0% 0%
         font-weight: 700
 
 //ESTILOS BARRA DE NAVEGACIÓN
@@ -125,7 +127,7 @@ nav
 
 .primerHeader
     font-size: 3.5em
-    padding: 200px 0px 100px 120px
+    padding: 200px 0px 100px 10%
 
 .headerInicio
     font-size: 3.5em
@@ -135,20 +137,30 @@ nav
 .textoAreaGris
     width: 100%
     background-color: desaturate(#D8D8D8, 29.77)
-    padding: 40px 0px
+    .container-fluid
+        width: 80%
+        padding: 5% 0%
     p
-        padding: 0px 100px 0px 0px
-        max-width: 530px
-        min-width: 300px
+        max-width: 500px
     ul
         font-size: 14px
-        max-width: 400px
         li
-            padding: 0px 140px
 
 #Equipo
+    h3
+        padding: 0 10%
     .container-fluid
-        max: width 60%
+        max: width 70%
+        .infoEquipo
+            padding: 2% 2%
+            p
+                max-width:800px
+    img
+        max-width: 100%
+
+.nuestrosAliados
+    h3
+        padding: 0px 10%
 
 footer
     h6
@@ -237,11 +249,6 @@ footer
             .col-lg-4
                 img
                     max-width: 400px
-
-.infoFijadaAbajo
-    position: absolute
-    bottom: 0px
-    max-width: 600px
 
 #contenedorClientesInicio
     padding: 20px 100px
