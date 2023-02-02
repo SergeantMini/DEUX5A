@@ -4,10 +4,13 @@ class FooterScript extends HTMLElement {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                    <img src="./images/topmenu/LogoBlanco.svg">
+                    <div class="container" align="center">
+                        <img src="./images/footer/LogoFooter.svg">
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <h6>Menú</h6>
+                    <div class="container">
+                        <h6>Menú</h6>
                     <div class="container-fluid" id="menuFooter">
                         <div class="row">
                             <div class="col-lg-6">
@@ -26,39 +29,42 @@ class FooterScript extends HTMLElement {
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <h6>Contáctanos</h6>
-                    <br>
-                    <p>hello@designdeux.com</p>
-                    <p>CDMX, México</p>
+                    <div class="container">
+                        <h6>Contáctanos</h6>
+                        <p>hello@designdeux.com</p>
+                        <p>CDMX, México</p>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <h6>Social Media</h6>
-                    <br>
-                    <div class="iconosSocialMedia">
-                        <ul>
-                            <li>
-                                <div class="iconoSMfooter">
-                                    <img src="./images/footer/IGblanco.svg">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iconoSMfooter">
-                                    <img src="./images/footer/YTblanco.svg">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iconoSMfooter">
-                                    <img src="./images/footer/IGblanco.svg">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iconoSMfooter">
-                                    <img src="./images/footer/YTblanco.svg">
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="container">
+                        <h6>Social Media</h6>
+                        <div class="iconosSocialMedia">
+                            <ul>
+                                <li>
+                                    <div class="iconoSMfooter">
+                                        <img src="./images/footer/Instagram.svg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iconoSMfooter">
+                                        <img src="./images/footer/tiktok.svg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iconoSMfooter">
+                                        <img src="./images/footer/facebook.svg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iconoSMfooter">
+                                        <img src="./images/footer/youtube.svg">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
