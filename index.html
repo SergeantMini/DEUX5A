@@ -60,22 +60,39 @@
         </div>
     </nav>
     <!-- FIN BARRA NAVEGACIÓN -->
-    
-    <h1 class="headerInicio">DE LA VISTA NACE EL AMOR</h1>
 
-    <h6>CONVERTIMOS IDEAS, PRODUCTOS & SERVICIOS EN MARCAS</h6>
+    <div>
+        <div>
+            <h1 class="headerInicio">DE LA VISTA NACE EL AMOR</h1>
+            <h6>CONVERTIMOS IDEAS, PRODUCTOS & SERVICIOS EN MARCAS</h6>
+        </div>
+        <div>
+            <label for="filtros">Filtros</label>
+            <select id="opciones" onChange="getOption()">
+                <option value="todos">Todos</option>
+                <option value="diseño">Diseño</option>
+                <option value="web">Web</option>
+                <option value="social">Social</option>
+                <option value="publicidad">Publicidad</option>
+                <option value="audiovisual">Audiovisual</option>
+                <option value="impresiones">Impresiones</option>
+            </select>
+        </div>
+    </div>
+    
+    
 
     <br>
 
     <section class="clientes">
-        <div class="container-fluid">
 
+        <div id="todos" class="container-fluid">
             <div class="row" id="contenedorClientesInicio">
                 <div class="col-sm-6">
                     <div class="container">
                         <img src="./images/Inicio/Clientes/alertavioleta-20.png">
                         <h4>ALERTA VIOLETA</h4>
-                        <p>Branding, tarjetas de presentación, impresión</p>
+                        <p>Aplicación móvil</p>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -166,7 +183,7 @@
                 <div class="col-sm-6">
                     <div class="container">
                         <img src="./images/Inicio/Clientes/vitrinadecafe.png">
-                        <h4>VITRINA DE CAFÉ</h4>
+                        <h4>LA VITRINA DE CAFÉ</h4>
                         <P>Identidad corporativa, empaque, social media, catálogo</P>
                     </div>
                 </div>
@@ -183,13 +200,963 @@
                 <div class="col-sm-6">
                     <div class="container">
                         <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SOSFEM</h4>
+                        <P>App mobile, presentaciones corporativas, audivisual</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>HECHO CON AMOR POR LAURA</h4>
+                        <P>Branding, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SISTEMA OPERATIVO DE VENTAS SOV</h4>
+                        <P>Sistema web, apps mobiles, publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>THE GOOD LOOKING</h4>
+                        <P>Identidad corporativa</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MATUTINO</h4>
+                        <P>Publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>HUMART</h4>
+                        <P>Publicidad, animación digital</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>RICARDO SIERRA</h4>
+                        <P>Sitio web responsive</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>KALI</h4>
+                        <P>Branding, empaque</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BLAST ORGANICS</h4>
+                        <P>Social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MEXSOF</h4>
+                        <P>Identidad corporativa, packaging, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PINKA</h4>
+                        <P>Publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>IBR</h4>
+                        <P>Publicidad, social media, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SERGEANT MINI</h4>
+                        <P>Branding</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SISMOSMX</h4>
+                        <P>App huawei watch</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PERCEPTION</h4>
+                        <P>Identidad corporativa, Publicidad, Audiovisual</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>EMA</h4>
+                        <P>Identidad corporativa, Publicidad, Social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BANCO DE ALIMENTOS</h4>
+                        <P>Videos corporativos</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MAYRA FERNÁNDEZ</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SARA INMOBILIARIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>JULIO INMOBILIARIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>FOTOGRAFIAS BODA ALEMANIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PIKIPOP'S</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>THINGS THAT I THINK</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SLAMM</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>FILEX</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>D'YECA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="diseño" class="container-fluid" hidden>
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/sofie.png">
+                        <h4>SOFIE CHATBOT</h4>
+                        <P>Identidad corporativa, sitio web, app mobile, animación, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/pikines.png">
+                        <h4>PIKINES BOTANAS</h4>
+                        <p>Branding, packaging, publicidad, catálogo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/casetonymas.png">
+                        <h4>CASETÓN Y MÁS</h4>
+                        <P>Identidad corporativa, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/inmobiliariatress.png">
+                        <h4>INMOBILIARIA TRESS</h4>
+                        <p>Identidad corporativa, social media, publicidad, audiovisual</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/bolifrut.png">
+                        <h4>BOLIFRUT</h4>
+                        <P>Empaque, ilustración</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/justcoffee.png">
+                        <h4>JUST COFFEE</h4>
+                        <p>Identidad corporativa, empaque, social media</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/intop.png">
+                        <h4>INTOP SOLUTIONS</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/unboxing.png">
+                        <h4>UNBOXING</h4>
+                        <p>Identidad corporativa, audiovisual, social media</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/aloemx.png">
+                        <h4>ALOEMX</h4>
+                        <P>Branding, impresión</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/kuali.png">
+                        <h4>KUALI</h4>
+                        <p>Branding, etiquetas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/vitrinadecafe.png">
+                        <h4>VITRINA DE CAFÉ</h4>
+                        <P>Identidad corporativa, empaque, social media, catálogo</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
                         <h4>HECHO CON AMOR POR LAURA</h4>
                         <P>Branding, publicidad</P>
                     </div>
                 </div>
             </div>
 
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>THE GOOD LOOKING</h4>
+                        <P>Identidad corporativa</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>KALI</h4>
+                        <P>Branding, empaque</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MEXSOF</h4>
+                        <P>Identidad corporativa, packaging, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SERGEANT MINI</h4>
+                        <P>Branding</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PERCEPTION</h4>
+                        <P>Identidad corporativa, Publicidad, Audiovisual</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>EMA</h4>
+                        <P>Identidad corporativa, Publicidad, Social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MAYRA FERNÁNDEZ</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SARA INMOBILIARIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>JULIO INMOBILIARIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PIKIPOP'S</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>THINGS THAT I THINK</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SLAMM</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>FILEX</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>D'YECA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <div id="web" class="container-fluid" hidden>
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/alertavioleta-20.png">
+                        <h4>ALERTA VIOLETA</h4>
+                        <p>Aplicación móvil</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/sofie.png">
+                        <h4>SOFIE CHATBOT</h4>
+                        <P>Identidad corporativa, sitio web, app mobile, animación, social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/intop.png">
+                        <h4>INTOP SOLUTIONS</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SOSFEM</h4>
+                        <P>App mobile, presentaciones corporativas, audivisual</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SISTEMA OPERATIVO DE VENTAS SOV</h4>
+                        <P>Sistema web, apps mobiles, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>RICARDO SIERRA</h4>
+                        <P>Sitio web responsive</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BLAST ORGANICS</h4>
+                        <P>Social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SERGEANT MINI</h4>
+                        <P>Branding</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SISMOSMX</h4>
+                        <P>App huawei watch</P>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="social" class="container-fluid" hidden>
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/sofie.png">
+                        <h4>SOFIE CHATBOT</h4>
+                        <P>Identidad corporativa, sitio web, app mobile, animación, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/inmobiliariatress.png">
+                        <h4>INMOBILIARIA TRESS</h4>
+                        <p>Identidad corporativa, social media, publicidad, audiovisual</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/inmobiliariatress.png">
+                        <h4>INMOBILIARIA TRESS</h4>
+                        <p>Identidad corporativa, social media, publicidad, audiovisual</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/bolifrut.png">
+                        <h4>BOLIFRUT</h4>
+                        <P>Empaque, ilustración</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/intop.png">
+                        <h4>INTOP SOLUTIONS</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/unboxing.png">
+                        <h4>UNBOXING</h4>
+                        <p>Identidad corporativa, audiovisual, social media</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>IBR</h4>
+                        <P>Publicidad, social media, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>EMA</h4>
+                        <P>Identidad corporativa, Publicidad, Social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BANCO DE ALIMENTOS</h4>
+                        <P>Videos corporativos</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SLAMM</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>D'YECA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="publicidad" class="container-fluid" hidden>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/pikines.png">
+                        <h4>PIKINES BOTANAS</h4>
+                        <p>Branding, packaging, publicidad, catálogo</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/casetonymas.png">
+                        <h4>CASETÓN Y MÁS</h4>
+                        <P>Identidad corporativa, publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/inmobiliariatress.png">
+                        <h4>INMOBILIARIA TRESS</h4>
+                        <p>Identidad corporativa, social media, publicidad, audiovisual</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/intop.png">
+                        <h4>INTOP SOLUTIONS</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/calpeñuela.png">
+                        <h4>CAL PEÑUELA</h4>
+                        <p>Publicidad, audiovisual</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SISTEMA OPERATIVO DE VENTAS SOV</h4>
+                        <P>Sistema web, apps mobiles, publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MATUTINO</h4>
+                        <P>Publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PINKA</h4>
+                        <P>Publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>IBR</h4>
+                        <P>Publicidad, social media, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>PERCEPTION</h4>
+                        <P>Identidad corporativa, Publicidad, Audiovisual</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>EMA</h4>
+                        <P>Identidad corporativa, Publicidad, Social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BANCO DE ALIMENTOS</h4>
+                        <P>Videos corporativos</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MAYRA FERNÁNDEZ</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="audiovisual" class="container-fluid" hidden>
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/sofie.png">
+                        <h4>SOFIE CHATBOT</h4>
+                        <P>Identidad corporativa, sitio web, app mobile, animación, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/pikines.png">
+                        <h4>PIKINES BOTANAS</h4>
+                        <p>Branding, packaging, publicidad, catálogo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/inmobiliariatress.png">
+                        <h4>INMOBILIARIA TRESS</h4>
+                        <p>Identidad corporativa, social media, publicidad, audiovisual</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/justcoffee.png">
+                        <h4>JUST COFFEE</h4>
+                        <p>Identidad corporativa, empaque, social media</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/vitrinadecafe.png">
+                        <h4>LA VITRINA DE CAFÉ</h4>
+                        <P>Identidad corporativa, empaque, social media, catálogo</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/calpeñuela.png">
+                        <h4>CAL PEÑUELA</h4>
+                        <p>Publicidad, audiovisual</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>SOSFEM</h4>
+                        <P>App mobile, presentaciones corporativas, audivisual</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>HUMART</h4>
+                        <P>Publicidad, animación digital</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>ILEVENTO</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BANCO DE ALIMENTOS</h4>
+                        <P>Videos corporativos</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>FOTOGRAFIAS BODA ALEMANIA</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>THINGS THAT I THINK</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="impresiones" class="container-fluid" hidden>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/casetonymas.png">
+                        <h4>CASETÓN Y MÁS</h4>
+                        <P>Identidad corporativa, publicidad</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/intop.png">
+                        <h4>INTOP SOLUTIONS</h4>
+                        <P>Identidad corporativa, sitio web responsive, social media</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/aloemx.png">
+                        <h4>ALOEMX</h4>
+                        <P>Branding, impresión</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/kuali.png">
+                        <h4>KUALI</h4>
+                        <p>Branding, etiquetas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/vitrinadecafe.png">
+                        <h4>LA VITRINA DE CAFÉ</h4>
+                        <P>Identidad corporativa, empaque, social media, catálogo</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>HECHO CON AMOR POR LAURA</h4>
+                        <P>Branding, publicidad</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contenedorClientesInicio">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>BANCO DE ALIMENTOS</h4>
+                        <P>Videos corporativos</P>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <img src="./images/Inicio/Clientes/porlaura.png">
+                        <h4>MAYRA FERNÁNDEZ</h4>
+                        <!-- <P></P> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </section>
 
     
@@ -210,8 +1177,8 @@
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script-->
     
     <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+        // let slideIndex = 1;
+        // showSlides(slideIndex);
 
         // Next/previous controls
         function plusSlides(n) {
@@ -237,6 +1204,16 @@
         }
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
+        }
+
+        function getOption() {
+            selectElement = document.querySelector('#opciones');
+            output = selectElement.value;
+            // document.querySelector('.output').textContent = output;
+            console.log('output', output);
+            document.getElementById("todos").hidden = true;
+            document.getElementById(`${output}`).hidden = false;
+
         }
     </script>
 </body>
