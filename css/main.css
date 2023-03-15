@@ -39,6 +39,13 @@ p {
   font-size: 14px;
 }
 
+.divblanco {
+  background-color: white;
+}
+.divblanco button {
+  background-color: #47B2A3;
+}
+
 .tSlow, nav ul li a::after, nav ul li a::before, nav ul li a, nav ul, nav, a {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -82,7 +89,7 @@ nav .logo img {
   margin: 10px 10px;
 }
 nav ul {
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
   text-align: right;
 }
@@ -174,24 +181,59 @@ nav ul li a:hover::after {
 }
 
 footer {
-  margin: 20px 0px 0px 0px;
   background-color: #272727;
+  padding: 2% 2%;
+}
+footer #menuFooter {
+  margin: 0px 0px;
 }
 footer h6 {
   font-size: 12px;
+  margin: 10px 30px;
+}
+footer p {
+  color: white;
+  margin: 0px 30px;
+  font-size: 10px;
 }
 footer .container-fluid {
   width: 100%;
-  padding: 20px 20px;
+  padding: 0px 0px;
 }
 footer .container-fluid .row .col-lg-3 {
-  padding: 1% 1%;
+  padding: 0% 0%;
+}
+footer .container-fluid .row .col-lg-3 .iconosSocialMedia ul {
+  margin: 0px 0px;
+  list-style-type: none;
 }
 footer .container-fluid .row .col-lg-3 .iconosSocialMedia ul li {
   display: inline-block;
 }
+footer .iconoSMfooter {
+  background-color: transparent;
+  border-radius: 50%;
+  border-color: transparent;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+footer .iconoSMfooter:hover {
+  background-color: #027DB0;
+}
+footer .iconoSMfooter img {
+  max-width: 30px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 5px 5px;
+}
+footer .iconoSMfooter img:hover {
+  background-color: #027DB0;
+}
 footer img {
-  max-width: 150px;
+  max-height: 100px;
   margin: 10px 10px;
 }
 footer ul {
@@ -206,26 +248,6 @@ footer ul li a {
 }
 footer ul li a:hover {
   color: #027DB0;
-}
-footer p {
-  color: white;
-  margin: 0px 0px;
-  font-size: 10px;
-}
-footer .iconoSMfooter {
-  background-color: #D8D8D8;
-  border-radius: 50%;
-  border-color: transparent;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-footer .iconoSMfooter img {
-  max-width: 30px;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .prev, .next {
@@ -287,4 +309,46 @@ footer .iconoSMfooter img {
 #contenedorClientesInicio p {
   margin: 0px 0px;
   font-family: "Source Serif Pro", serif;
+}
+
+.clientesServicios {
+  width: 100%;
+}
+.clientesServicios .container {
+  padding: 15px 15px;
+}
+.clientesServicios .container img {
+  max-width: 80%;
+}
+
+#bannerServicios h1 {
+  margin-top: 150px;
+  padding-left: 7%;
+  color: white;
+  font-size: 3.6em;
+}
+#bannerServicios h3 {
+  font-weight: 400;
+  font-family: "Source Serif Pro", serif;
+  padding-left: 7%;
+  padding-bottom: 100px;
+}
+
+.labelsCotiz {
+  font-size: 13px;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+.botonNar {
+  background-color: #47B2A3;
+  color: white;
+  border-radius: 15px;
+  border-color: transparent;
+  width: 250px;
+  height: 30px;
+}
+
+#cincoimagenes img {
+  max-width: 100%;
 }

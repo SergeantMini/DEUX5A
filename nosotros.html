@@ -145,10 +145,20 @@
             </div>
         </div>
         <br><br>
-        <h2 style="text-align:center">AQUI VA EL LOTTIE DEL DIAMONT PROCESS</h2>
+
+        <div class="container" align="center">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+            <lottie-player src="https://lottie.host/9acbe016-70ab-4796-86c2-9404d71a6690/X2f9EEXBGu.json" background="transparent" speed="1" style="width: 600px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+
         <BR></BR>
-        <H2 style="text-align:center">AQUI VA EL LOTTIE DE SPRINT</H2>
-    </section>
+
+        <div class="container" align="center">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+            <lottie-player src="https://lottie.host/b2a34b39-5352-4082-8ee6-a7bc0d0c7360/EKDUhPua5f.json" background="transparent" speed="1" style="width: 600px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+
+        </section>
 
     <br><br>
     
@@ -175,7 +185,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="./images/Nosotros/german.png">
+                            <img src="./images/Nosotros/team_susana.png">
                         </div>
                         <div class="col-lg-8">
                             <div class="infoEquipo">
@@ -194,14 +204,52 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="https://via.placeholder.com/450x650">
+                            <img src="./images/Nosotros/team_hazel.png">
                         </div>
                         <div class="col-lg-8">
-                            <div class="infoFijadaAbajo">
-                                <h2>GERMI</h2>
-                                <h4>Dev</h4>
+                            <div class="infoEquipo">
+                                <h2>HAZEL TALAVERA</h2>
+                                <h4></h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores quos ratione perferendis est soluta dolorem quidem! Aperiam sed, dolor eius neque natus consequuntur et perferendis laboriosam ducimus dicta vel?
+                                    Hazel Talavera es community manager de Deux. Estudió comunicación y producción de medios en la UDLAP y se especializó en dirección y gestión de marketing digital. Con experiencia en temas de planificación e implementación de campañas digitales, creación de contenido , medición de las campañas,  y producción audiovisual. Su misión es crear proyectos con pasión, inspirar y trascender en temas dijitales.    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="./images/Nosotros/team_mones.png">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="infoEquipo">
+                                <h2>MONÉS VJ</h2>
+                                <h4></h4>
+                                <p>
+                                    Monés es parte del equipo de programación en DEUX. Egresada de Ing. en Sistemas Computacionales en la UDLAP trabaja en los proyectos de DEUX como portafolios, landing-page, sitios web, etc... Le gusta salir a pasear con su perrita, los videojuegos y las películas. Enfocada en la creación de servicios web.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="./images/Nosotros/team_valeria.png">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="infoEquipo">
+                                <h2>VALERIA</h2>
+                                <h4></h4>
+                                <p>
+                                    Valeria Verdejo es PR y Digital Marketing Manager de DEUX. Es mercadologa con una maestría en alta dirección por la Universidad Anáhuac México y con un expertise en Marketing Digital y desarrollo de estrategias digitales. Su enfoque principal está en comprender las plataformas digitales y poner en marcha acciones exitosas.  Apasionada de la música y del baile.    
                                 </p>
                             </div>
                         </div>
@@ -217,16 +265,15 @@
 
     <br><br>
 
-    <section class="nuestrosAliados">
+    <!--section class="nuestrosAliados">
         <h3>NUESTROS ALIADOS</h3>
-    </section>
+    </section-->
 
     <br><br>
 
     <footer>
         <deux-footer></deux-footer>
     </footer>
-
 
 
     <!--BOOTSTRAP CDN-->
@@ -253,30 +300,19 @@
         }
 
         function showSlides(n) {
-
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
         }
     </script>
 </body>
