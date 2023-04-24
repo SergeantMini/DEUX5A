@@ -288,3 +288,31 @@ footer .iconoSMfooter img {
   margin: 0px 0px;
   font-family: "Source Serif Pro", serif;
 }
+
+@media screen and (max-width: 600px) {
+  .col-lg-10.topnav {display: none;}
+
+  .col-lg-10.topnav.responsive {
+    float: none;
+    display: block;
+    text-align: left;
+    bottom: 0px;
+  }
+
+  .icon {
+    float: right;
+    display: block;
+    right: 0;
+    top: 0;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  .col-lg-10.topnav {
+    width: 100%;
+  }
+  .icon {
+    display: none;
+  }
+}
