@@ -138,12 +138,14 @@ nav ul li a:hover::after {
 .primerHeader {
   font-size: 3.5em;
   padding: 200px 0px 100px 10%;
+  font-weight: 700;
 }
 
 .headerInicio {
   font-size: 3.5em;
-  padding: 120px 0px 0px 120px;
+  margin-top: 200px;
   color: #272727;
+  font-weight: 900;
 }
 
 .textoAreaGris {
