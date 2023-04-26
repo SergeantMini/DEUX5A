@@ -32,6 +32,7 @@
     <!--CUSTOM ELEMENTS SCRIPT-->
     <script src='./js/footerScript.js'></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         body{
@@ -53,7 +54,7 @@
                 </div>
 
                 <!--LINKS DE NAVEGACIÓN-->
-                <div class="col-lg-10">
+                <div id="topbar" class="col-lg-10 topnav">
                     <ul>
                         <li><a href="index.html">INICIO</a></li>
                         <li><a href="nosotros.html">NOSOTROS</a></li>
@@ -62,9 +63,26 @@
                         <li><a href="cotiza.html">COTIZA</a></li>
                     </ul>
                 </div>
+                <div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
+
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("topbar");
+            if (x.className === "col-lg-10 topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "col-lg-10 topnav";
+            }
+        }
+    </script>
     <!-- FIN BARRA NAVEGACIÓN -->
     <div class="container-fluid" id="bannerServicios" style="background-image: url('./images/Servicios/bannerServicios.png');background-repeat: no-repeat;background-size: cover;">
         <div class="row">
