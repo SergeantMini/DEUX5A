@@ -143,6 +143,7 @@ nav ul li a:hover::after {
 
 .headerInicio {
   font-size: 3.5em;
+  margin-left: 100px;
   margin-top: 200px;
   color: #272727;
   font-weight: 900;
