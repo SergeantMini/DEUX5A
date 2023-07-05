@@ -41,30 +41,38 @@ class FooterScript extends HTMLElement {
                 <div class="col-lg-3">
                     <div class="container">
                         <h6>Social Media</h6>
-                        <div class="iconosSocialMedia">
-                            <ul>
-                                <li>
-                                    <div class="iconoSMfooter">
-                                        <img src="/images/footer/Instagram.svg">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="iconoSMfooter">
-                                        <img src="/images/footer/tiktok.svg">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="iconoSMfooter">
-                                        <img src="/images/footer/facebook.svg">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="iconoSMfooter">
-                                        <img src="/images/footer/youtube.svg">
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <table style="text-align:center;">
+                    <tr>
+                        <th>
+                            <div class="container iconosRS">
+                                <a href="https://www.instagram.com/deux.diseno.mx/'" target="_blank">
+                                    <img src="/images/footer/Instagram.svg" style="width:26px;margin-top: 12px;">
+                                </a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="container iconosRS">
+                                <a href="https://www.facebook.com/deux.diseno.mx'" target="_blank">
+                                    <img src="/images/footer/facebook.svg" style="width:26px;margin-top: 12px;">
+                                </a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="container iconosRS">
+                                <a href="https://www.youtube.com/channel/UCk9jq6eN76kU0gWe9x1CoVA'" target="_blank">
+                                    <img src="/images/footer/youtube.svg" style="width:26px;margin-top: 12px;">
+                                </a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="container iconosRS">
+                                <a href="https://www.tiktok.com/@designdeux?is_from_webapp=1&sender_device=pc" target="_blank">
+                                    <img src="/images/footer/tiktok.svg" style="width:26px;margin-top: 12px;">
+                                </a>    
+                            </div>
+                        </th>
+                    </tr>
+                </table>
                     </div>
                 </div>
             </div>
