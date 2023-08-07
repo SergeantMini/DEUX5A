@@ -24,7 +24,7 @@ class FooterScript extends HTMLElement {
                                 <ul>
                                     <li><a href="servicios.html">Servicios</a></li>
                                     <li><a href="cotiza.html">Cotiza</a></li>
-                                    <li><a href="cotiza.html">Legalidad</a></li>
+                                    <li><a href="legalidad.html">Legalidad</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ class FooterScript extends HTMLElement {
             <div class="row">
                 <div class="col-sm">
                     <p style="text-align:center">
-                        © 2023 DEUX. Todos los derechos reservados. Términos y condiciones & Avisos de privacidad
+                        © 2023 DEUX. Todos los derechos reservados. <a href="legalidad.html">Términos y condiciones & Avisos de privacidad</a>
                     </p>
                 </div>
             </div>
